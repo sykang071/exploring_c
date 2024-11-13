@@ -16,30 +16,30 @@
 // printf("Name: %s\n", saturn.name);
 
 
-void set_price(struct car *c, float new_price) {
-    // (*c).price = new_price;
-    c->price = new_price;
-}
+// void set_price(struct car *c, float new_price) {
+//     // (*c).price = new_price;
+//     c->price = new_price;
+// }
 
-struct car {
-    char *name;
-    float price;
-    int speed;
-};
+// struct car {
+//     char *name;
+//     float price;
+//     int speed;
+// };
 
-int main(void){
-    struct car saturn = {.speed = 175, .name="Saturnasf"};
+// int main(void){
+//     struct car saturn = {.speed = 175, .name="Saturnasf"};
 
-    //pass pointer to this sturct car
-    set_price(&saturn, 799.99);
+//     //pass pointer to this sturct car
+//     set_price(&saturn, 799.99);
 
-    printf("Price: %f\n", saturn.price);
-}
+//     printf("Price: %f\n", saturn.price);
+// }
 
 
-//copying and returning structs
-struct car a, b;
-b = a; // copy the struct
+// //copying and returning structs
+// struct car a, b;
+// b = a; // copy the struct
 
 
 
